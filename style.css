@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
 #main-image {
-width: 100px;
+width: 125px;
 }
 #other-image {
     width: 250px;
+}
+
+#bonker-s {
+    width: 500px;
+    border-radius: 30px;
 }
 
 body {
@@ -10,13 +17,100 @@ body {
     font-family: 'Comic Sans MS', 'Comic Sans', cursive;
     background: rgb(213, 198, 241);
     color: rgb(37, 24, 3);
-    text-decoration: underline;
-    text-shadow: 2px 3px 10px rgb(172, 101, 8)
+    text-shadow: 2px 3px 1px rgb(172, 101, 8)
 
 }
 
+h1 {
+    font-family: 'Slackey', cursive;
+}
+
 .hover-text:hover {
-  transform: translateY(-5px);
   transform: translateX(5px);
-  transform: scale(10px);
+}
+
+
+#main-image:active {
+  transform: scaleX(0.6);
+}
+
+#other-image:active {
+  transform: scaleX(0.8);
+}
+
+
+.weeee-hoo {
+    font-size: 30px
+}
+
+.weeee-hoo span {
+    display: inline-block;
+    animation: bounce 0.5s infinite alternate;
+}
+
+.weeee-hoo span:nth-child(1) {
+    animation-delay: 0s; }
+.weeee-hoo span:nth-child(2) {
+    animation-delay: 0.1s; }
+.weeee-hoo span:nth-child(3) {
+    animation-delay: 0.2s; }
+.weeee-hoo span:nth-child(4) {
+    animation-delay: 0.3s; }
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+
+
+
+.poop {
+    font-size: 30px
+}
+
+.poop span {
+    display: inline-block;
+    animation: bounce 0.5s infinite alternate;
+}
+
+.poop span:nth-child(1) {
+    animation-delay: 0.4s; }
+.poop span:nth-child(2) {
+    animation-delay: 0.5s; }
+.poop span:nth-child(3) {
+    animation-delay: 0.6s; }
+.poop span:nth-child(4) {
+    animation-delay: 0.7s; }
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.poopies {
+    font-size: 30px
+}
+
+.poopies span {
+    display: inline-block;
+    animation: bounce 0.5s infinite alternate;
+}
+
+.poopies span:nth-child(1) {
+    animation-delay: 0.8s; }
+.poopies span:nth-child(2) {
+    animation-delay: 0.9s; }
+.poopies span:nth-child(3) {
+    animation-delay: 1.0s; }
+.poopies span:nth-child(4) {
+    animation-delay: 1.1s; }
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+#awesome {
+    font-family: 'Copperplate', 'fantasy', cursive;
 }
