@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+:root {
+	--primary-milk-tea: #f4d06f;
+	--taro-purple: #cfb3f5;
+	--matcha-green: #f4d9ff;
+	--tapioca-dark: #2b2d42;
+}
 
 #main-image {
 width: 125px;
@@ -20,6 +26,15 @@ body {
     text-shadow: 2px 3px 1px rgb(172, 101, 8)
 
 }
+
+
+.about-me {
+  background: linear-gradient(135deg, var(--taro-purple), #b790e9);
+}
+.awesomesauce {
+  background: linear-gradient(135deg, var(--matcha-green), #f0a5ff);
+}
+
 
 h1 {
     font-family: 'Slackey', cursive;
